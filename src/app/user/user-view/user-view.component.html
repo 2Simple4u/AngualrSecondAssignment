@@ -1,0 +1,12 @@
+<navbar></navbar>
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav mode="side" opened="true" class="sidenav">
+    <mat-toolbar>User Dashboard</mat-toolbar>
+    <mat-nav-list>
+      <mat-list-item routerLink="/user/restaurant" routerLinkActive="active-link" class="menu-list">Restaurant</mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <div class="router-cpntroller">
+    <router-outlet></router-outlet>
+  </div>
+</mat-sidenav-container>

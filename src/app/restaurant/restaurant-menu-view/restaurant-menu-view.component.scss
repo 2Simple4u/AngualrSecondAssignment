@@ -1,0 +1,23 @@
+.menu-tables {
+  display: flex;
+  gap: 30px;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.table-container {
+  width: 45%;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding: 8px;
+}

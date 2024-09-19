@@ -1,0 +1,59 @@
+.homepage {
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+
+    .spacer {
+      flex: 1 1 auto;
+    }
+
+    button {
+      margin-left: 16px;
+    }
+  }
+
+  .background {
+    background-image: url('../../assets/mainBg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: flex;
+      gap: 1rem;
+      flex-direction: column;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      border-radius: 8px;
+
+
+      h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+img {
+  height: 57px;
+  width: 85px;
+}

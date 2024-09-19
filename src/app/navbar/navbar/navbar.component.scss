@@ -1,0 +1,26 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.mat-toolbar.mat-primary {
+    --mat-toolbar-container-background-color: #1e1e1e !important;
+    --mat-toolbar-container-text-color: white;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo-image {
+  height: 50px; /* Adjust based on your logo size */
+}
+
+.spacer {
+  flex: 1;
+}
+
+button {
+  margin-left: auto;
+}

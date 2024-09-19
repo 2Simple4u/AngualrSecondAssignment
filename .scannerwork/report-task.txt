@@ -1,0 +1,6 @@
+projectKey=angualr-2
+serverUrl=http://localhost:9004
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9004/dashboard?id=angualr-2
+ceTaskId=9cea4373-054c-4a72-a880-b33d75eebdd5
+ceTaskUrl=http://localhost:9004/api/ce/task?id=9cea4373-054c-4a72-a880-b33d75eebdd5

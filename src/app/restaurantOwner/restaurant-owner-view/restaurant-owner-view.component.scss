@@ -1,0 +1,58 @@
+
+
+.sidenav-container {
+  height: calc(100vh - 65px);
+}
+
+.sidenav {
+  width: 250px;
+  background: #1e1e1e; // Dark grey background for sidenav
+}
+
+// .sidenav mat-toolbar {
+//   background: #000; // Black toolbar background
+// }
+
+.sidenav mat-nav-list {
+  padding: 0;
+}
+
+mat-list-item {
+  color: white !important;
+}
+
+.sidenav mat-list-item {
+  color: #e0e0e0; // Light text color
+}
+
+.sidenav mat-list-item.active-link {
+  background: #333; // Highlight active link
+}
+
+// mat-tab-group {
+//   background: #121212; // Dark background for tab content
+// }
+
+.content {
+  padding: 16px;
+}
+
+.mdc-tab__text-label {
+  color: white !important;
+  font-size: 1.3rem;
+}
+
+.menu-list::ng-deep .mdc-list-item__content span {
+  color: white !important;
+}
+
+.router-cpntroller {
+  height: 95vh;
+  padding: 10px;
+  display: block;
+  background-image: url('../../../assets/adminBG.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backdrop-filter: blur(2.5px);
+}

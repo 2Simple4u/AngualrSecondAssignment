@@ -1,0 +1,49 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-image: url('../../assets/LoginBg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  backdrop-filter: blur(3.5px);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form {
+  padding: 15px;
+}
+
+.mat-mdc-form-field {
+  width: 100%;
+}
+
+.mat-mdc-card {
+  background-color: rgba(255, 255, 255, 0.5490196078);
+  box-shadow: 0px 0px 15px 10px #393838;
+}
+
+.mat-mdc-raised-button:not(:disabled){
+  background-color: black;
+}
+.mat-mdc-card-header {
+  justify-content: center;
+  color: black;
+}

@@ -1,0 +1,41 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>Add New Menu Item</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="menuForm" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="fill">
+          <mat-label>Name</mat-label>
+          <input matInput formControlName="name" />
+          <!-- // for giving the error// -->
+          <mat-error *ngIf="menuForm.get('name')?.hasError('required')"> 
+            Name is required
+          </mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Description</mat-label>
+          <textarea matInput formControlName="description"></textarea>
+          <mat-error *ngIf="menuForm.get('description')?.hasError('required')">
+            Description is required
+          </mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Price</mat-label>
+          <input matInput formControlName="price" type="number" step="0.01" />
+          <mat-error *ngIf="menuForm.get('price')?.hasError('required')">
+            Price is required
+          </mat-error>
+          <mat-error *ngIf="menuForm.get('price')?.hasError('pattern')">
+            Enter a valid price
+          </mat-error>
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary" type="submit" [disabled]="menuForm.invalid">
+          Add Menu Item
+        </button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  

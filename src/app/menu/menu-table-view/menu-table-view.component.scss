@@ -1,0 +1,30 @@
+.menu-table-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mat-table {
+    color: #e0e0e0; 
+  }
+  
+  .mat-header-cell {
+    background: #1e1e1e; 
+  }
+  
+  .mat-sort-header {
+    color: #e0e0e0; 
+  }
+  
+  .mat-paginator {
+    color: #e0e0e0; 
+  }
+  
+
+    button {
+      margin: auto;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  
+  
